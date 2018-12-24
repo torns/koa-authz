@@ -23,8 +23,8 @@ class BasicAuthorizer {
   // Currently, only HTTP basic authentication is supported
   getUserName () {
     // customize to get username from context
-    const {user} = this.ctx
-    const {username} = user
+    const {authzUser} = this.ctx
+    const {username} = authzUser
     return username
   }
 
