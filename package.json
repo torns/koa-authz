@@ -4,7 +4,6 @@
   "description": "koa-authz is an authorization middleware for Koa",
   "main": "authz.js",
   "scripts": {
-    "prepublish": "npm run lint && npm run test",
     "fix": "eslint \"authz.js\" --fix",
     "lint": "eslint \"authz.js\"",
     "test": "jest"
