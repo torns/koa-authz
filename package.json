@@ -1,5 +1,5 @@
 {
-  "name": "koa-authz",
+  "name": "torn-koa-authz",
   "version": "1.0.1",
   "description": "koa-authz is an authorization middleware for Koa",
   "main": "authz.js",
@@ -19,20 +19,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-casbin/koa-authz.git"
+    "url": "https://github.com/torns/koa-authz.git"
   },
   "author": {
-    "name": "Chalin-Shi",
-    "email": "18875906195@163.com"
+    "name": "torn",
+    "email": "torns@qq.com"
   },
   "engines": {
     "node": ">= 7.6.0"
   },
   "license": "http://www.apache.org/licenses/LICENSE-2.0",
   "bugs": {
-    "url": "https://github.com/node-casbin/koa-authz/issues"
+    "url": "https://github.com/torns/koa-authz/issues"
   },
-  "homepage": "https://github.com/node-casbin/koa-authz#readme",
+  "homepage": "https://github.com/torns/koa-authz#readme",
   "dependencies": {
     "casbin": "^1.0.7"
   },
